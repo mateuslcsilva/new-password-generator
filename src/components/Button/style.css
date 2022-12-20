@@ -1,0 +1,24 @@
+.button-number{
+    border: 1px solid hsl(171, 100%, 41%);
+    background-color: transparent;
+    width: 2.7vw;
+    aspect-ratio: 1;
+    border-radius: 3px;
+    font-size: 14pt;
+}
+
+.button-number:hover{
+    cursor: pointer;
+    font-weight: 600;
+    border: 2px solid hsl(171, 100%, 41%);
+}
+
+.active{
+    background-color: hsl(171, 100%, 41%);
+    font-weight: 600;
+    color: white;
+}
+
+@media (min-wid) {
+    
+}
