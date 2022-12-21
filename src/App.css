@@ -115,7 +115,7 @@ h2, h3{
 @media (max-width: 500px){
     .container{
         width: 93vw;
-        height: 70vh;
+        height: 600px;
     }
 
     .checkbox-container{
