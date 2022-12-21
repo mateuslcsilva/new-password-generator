@@ -111,3 +111,18 @@ h2, h3{
         margin-top: 3vh;
     }
 }
+
+@media (max-width: 500px){
+    .container{
+        width: 93vw;
+        height: 70vh;
+    }
+
+    .checkbox-container{
+        font-size: 14pt;
+    }
+
+    .buttons-container{
+        grid-template-columns: repeat(3, 12vw);
+    }
+}

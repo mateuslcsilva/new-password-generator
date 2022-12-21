@@ -19,6 +19,8 @@
     color: white;
 }
 
-@media (min-wid) {
-    
+@media (max-width: 500px) {
+    .button-number{
+        width: 12vw;
+    }
 }
