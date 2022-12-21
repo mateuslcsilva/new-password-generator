@@ -1,9 +1,8 @@
 export interface initialFormTypes {
-    numeros: boolean;
+    numeros: true | boolean;
     letrasMaiusculas: boolean;
-    letrasMinusculas: boolean;
+    letrasMinusculas: true | boolean;
     simbolos: boolean;
-    tamanhoSenha: number;
-    senha: string;
-    copiado: boolean;
+    tamanhoSenha: 6 | number;
+    senha: "" | string;
   }
